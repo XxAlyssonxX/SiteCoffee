@@ -1,0 +1,100 @@
+section {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.jo {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.go {
+    padding: 8px 16px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: rgba(0, 0, 0, 0.103) solid 1px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.go:hover {
+    background-color: #e0f7fa;
+}
+
+.product-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.384);
+    text-align: center;
+    gap: 7px;
+}
+
+.product-list img {
+    width: 100%;
+    height: 280px;
+    object-fit: fill;
+    border-radius: 8px;
+}
+
+.button {
+    background-color: rgb(240, 162, 72);
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 20px;
+}
+.button a:hover {
+    color: #ffcccb;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    gap: 30px;
+}
+
+.grao{
+    position: absolute;
+    right: 0;
+    margin: 50px;
+}
+
+.jo .go {
+    color: black; /* Cor padrão */
+}
+
+.jo .go.active {
+    background-color: #F0A248;
+    color: white; /* Cor marrom quando selecionado */
+}
